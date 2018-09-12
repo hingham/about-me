@@ -2,53 +2,53 @@
 var printGuess =' guess: ';
 
 
-// //Code prompts user to answer questions about me and alerts user if responses are correct
-//     var name = prompt('What is my name?');
-//     var nameGuess = name.toLowerCase();
-//     console.log(printGuess + nameGuess);
-//     if (nameGuess === 'hannah'){
-//         console.log('name is correct');
-//         alert('You are correct! My name is Hannah!')
-//     } else {
-//         console.log('name incorrect');
-//         alert('You are incorrect. But that\'s okay because we\'ve just met. My name is Hannah!');
-//     }
+//Code prompts user to answer questions about me and alerts user if responses are correct
+    var name = prompt('What is my name?');
+    var nameGuess = name.toLowerCase();
+    console.log(printGuess + nameGuess);
+    if (nameGuess === 'hannah'){
+        console.log('name is correct');
+        alert('You are correct! My name is Hannah!')
+    } else {
+        console.log('name incorrect');
+        alert('You are incorrect. But that\'s okay because we\'ve just met. My name is Hannah!');
+    }
 
 
-//     var grewUp = prompt('Was I born in Washington?')
-//     var grewUpGuess = grewUp.toLowerCase();
-//     console.log(' Q: was I born in Washington?' + printGuess + grewUpGuess);
+    var grewUp = prompt('Was I born in Washington?')
+    var grewUpGuess = grewUp.toLowerCase();
+    console.log(' Q: was I born in Washington?' + printGuess + grewUpGuess);
 
-//     if(grewUpGuess ==='yes' || grewUpGuess ==='y') {
-//         console.log(grewUpGuess + ' is correct');
-//         alert('You know me so well! I was born in Seattle, WA');
-//     }
-//     else if (grewUpGuess === 'no' || grewUpGuess === 'n') {
-//         console.log(grewUpGuess + ' is incorrect');
-//         alert('Actaully, I was. It\'s ok though. We are still getting to know one another.');
-//     }
-//     else {
-//         console.log(printGuess + grewUpGuess + 'is invalid');
-//         alert(grewUpGuess + ' is not valid. Please respond with a yes or no to questions.');
-//     }
+    if(grewUpGuess ==='yes' || grewUpGuess ==='y') {
+        console.log(grewUpGuess + ' is correct');
+        alert('You know me so well! I was born in Seattle, WA');
+    }
+    else if (grewUpGuess === 'no' || grewUpGuess === 'n') {
+        console.log(grewUpGuess + ' is incorrect');
+        alert('Actaully, I was. It\'s ok though. We are still getting to know one another.');
+    }
+    else {
+        console.log(printGuess + grewUpGuess + 'is invalid');
+        alert(grewUpGuess + ' is not valid. Please respond with a yes or no to questions.');
+    }
 
 
-//     var dogPerson = prompt('Do I like dogs?')
-//     var dogPersonGuess = dogPerson.toLowerCase();
-//     console.log('Q: Do I like dogs? ' + printGuess + dogPersonGuess);
+    var dogPerson = prompt('Do I like dogs?')
+    var dogPersonGuess = dogPerson.toLowerCase();
+    console.log('Q: Do I like dogs? ' + printGuess + dogPersonGuess);
 
-//     if (dogPersonGuess === 'yes' || dogPersonGuess === 'y') {
-//         console.log(dogPersonGuess + 'is Correct')
-//         alert('You are right! I do like dogs.')
-//         }
-//     else if (dogPersonGuess === 'no' || dogPersonGuess === 'n' ){
-//         alert('In fact, I do like dogs, but sadly I do not have a dog.');
-//         console.log(dogPersonGuess + ' is incorrect')
-//         }
-//     else {
-//         console.log(printGuess + dogPersonGuess + ' is invalid');
-//         alert(dogPersonGuess + ' is not valid. Please respond with a yes or no to questions.'); 
-//     }
+    if (dogPersonGuess === 'yes' || dogPersonGuess === 'y') {
+        console.log(dogPersonGuess + 'is Correct')
+        alert('You are right! I do like dogs.')
+        }
+    else if (dogPersonGuess === 'no' || dogPersonGuess === 'n' ){
+        alert('In fact, I do like dogs, but sadly I do not have a dog.');
+        console.log(dogPersonGuess + ' is incorrect')
+        }
+    else {
+        console.log(printGuess + dogPersonGuess + ' is invalid');
+        alert(dogPersonGuess + ' is not valid. Please respond with a yes or no to questions.'); 
+    }
 
 
     var gummy = prompt('Do I eat gummy bears?')
